@@ -23,6 +23,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B5E8471A85D6CF880B356456 /* Pods_LKModel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960CBA93AB66E1C6B4C1923B /* Pods_LKModel_Example.framework */; };
+		D0E0B93F28922144007ADBF0 /* LKUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E0B93E28922144007ADBF0 /* LKUserModel.m */; };
 		E86CB0410ECFFA8E64F42B76 /* Pods_LKModel_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A4C6E86FFC36596B9D89F4 /* Pods_LKModel_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		060C775D248864EB68972AAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		060C775D248864EB68972AAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		1E80A3BCB28ED3C8E49D07CD /* Pods-LKModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKModel_Example.debug.xcconfig"; path = "Target Support Files/Pods-LKModel_Example/Pods-LKModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1FA65FE60D962EC56D0AC861 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3386A6D0D73C235FEBD3D345 /* LKModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LKModel.podspec; path = ../LKModel.podspec; sourceTree = "<group>"; };
+		1FA65FE60D962EC56D0AC861 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3386A6D0D73C235FEBD3D345 /* LKModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = LKModel.podspec; path = ../LKModel.podspec; sourceTree = "<group>"; };
 		5BE47FEFEF25B8648E71E378 /* Pods-LKModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKModel_Example.release.xcconfig"; path = "Target Support Files/Pods-LKModel_Example/Pods-LKModel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LKModel_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKModel_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +68,8 @@
 		960CBA93AB66E1C6B4C1923B /* Pods_LKModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKModel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A8D9ED427E7285A9259CB40 /* Pods-LKModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKModel_Tests.release.xcconfig"; path = "Target Support Files/Pods-LKModel_Tests/Pods-LKModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A2A4C6E86FFC36596B9D89F4 /* Pods_LKModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E0B93D28922144007ADBF0 /* LKUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKUserModel.h; sourceTree = "<group>"; };
+		D0E0B93E28922144007ADBF0 /* LKUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKUserModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LKViewController.h */,
 				6003F5A6195388D20070C39A /* LKViewController.m */,
+				D0E0B93D28922144007ADBF0 /* LKUserModel.h */,
+				D0E0B93E28922144007ADBF0 /* LKUserModel.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +198,6 @@
 				6094F2E1A35AB967DD27CB6B /* Pods-LKModel_Tests.debug.xcconfig */,
 				9A8D9ED427E7285A9259CB40 /* Pods-LKModel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -347,10 +352,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LKModel_Example/Pods-LKModel_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LKModel/LKModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -367,6 +374,7 @@
 				6003F59E195388D20070C39A /* LKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LKViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D0E0B93F28922144007ADBF0 /* LKUserModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

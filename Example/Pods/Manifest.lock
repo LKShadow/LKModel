@@ -1,0 +1,23 @@
+PODS:
+  - LKModel (0.1.0):
+    - YYModel (~> 1.0.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - LKModel (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - YYModel
+
+EXTERNAL SOURCES:
+  LKModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LKModel: 3c8852ea6c79286e5132ee40ff0d0ad48cdfd3f1
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 9a78ec09a551936a79bc299d079903c1a520fc11
+
+COCOAPODS: 1.11.3

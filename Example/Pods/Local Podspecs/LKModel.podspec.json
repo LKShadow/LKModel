@@ -1,0 +1,28 @@
+{
+  "name": "LKModel",
+  "version": "0.1.0",
+  "summary": "基于YYModel封装的模型转换工具",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/LKShadow/LKModel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LKShadow": "807642441@qq.com"
+  },
+  "source": {
+    "git": "git@github.com:LKShadow/LKModel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "LKModel/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "YYModel": [
+      "~> 1.0.4"
+    ]
+  }
+}

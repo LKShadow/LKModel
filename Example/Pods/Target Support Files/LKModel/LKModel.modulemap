@@ -1,0 +1,6 @@
+framework module LKModel {
+  umbrella header "LKModel-umbrella.h"
+
+  export *
+  module * { export * }
+}
