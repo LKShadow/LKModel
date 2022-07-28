@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'LKModel_Example' do
+  pod 'LKModel', :path => '../'
+
+  target 'LKModel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
